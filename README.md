@@ -1,3 +1,32 @@
+
+<h3><pre>1. Backend: “API”</pre></h3>
+<ul>
+  <li><b>Requisitos:</b></li>
+</ul>
+<ol>
+  <li>Laravel 9</li>
+  <li>Localhost con php 8</li>
+  <li>Localhost mysql</li>
+</ol>
+<ul>
+  <li><b>Instalación:</b></li>
+</ul>
+<ol>
+  <li>Acceder al gestor de datos de mysql (en este caso phpmyadmin) y crear la bbdd “api_db” con codificación utf8_spanish2_ci</li>
+  <li>Acceder a la carpeta del proyecto “Api” ejecutar el cmd (o powershell) y usar el comando “php artisan migrate” para realizar la creación de las tablas</li>
+  <li>En la misma ruta ejecutar le comado “php artisan db:seed --class=ProductSeeder” para insertar valores de ejemplo, después de eso deberíamos tener en la tabla “products” 5 productos de pruebal</li>
+</ol>
+<ul>
+  <li><b>Endpoint:</b></li>
+</ul>
+<ol>
+  <li><b>Obtener todos los productos (GET):</b> http://localhost:<YOU_PORT>/api/products</li>
+  <li><b>Añadir un producto (POST):</b> http://localhost:<YOU_PORT>/api/product</li>
+  <li><b>Obtener un producto (GET):</b> http://localhost:<YOU_PORT>/api/products/{id}</li>
+  <li><b>Editar un producto (PUT):</b> http://localhost:<YOU_PORT>/api/product/{id}</li>
+  <li><b>Eliminar un producto (DELETE):</b> http://localhost:<YOU_PORT>/api/product/{id}}</li>
+</ol>
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
