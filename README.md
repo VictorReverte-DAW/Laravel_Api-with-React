@@ -1,8 +1,8 @@
 # api-React:
 <h2>
   2 proyectos distintos<br>
-  1. Rama Api -> Backend: “API”<br>
-  2. reactfront ->FrontEnd: “reactfront”
+  <pre>1. Rama Api -> Backend: “API”</pre><br>
+  <pre>2. reactfront ->FrontEnd: “reactfront”</pre>
 </h2>
 <h3>1. Backend: “API”</h3>
 <ul>
