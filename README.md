@@ -1,3 +1,43 @@
+<h3><pre>2. FrontEnd: “reactfront”</pre></h3>
+<ul>
+  <li><b>Requisitos:</b></li>
+</ul>
+<ol>
+  <li>React ^18.2.0</li>
+  <li>Tener funcionado la “Api” del punto de backend</li>
+  <li>Tener funcionado el localhost del punto anterior</li>
+</ol>
+<ul>
+  <li><b>Instalación:</b></li>
+</ul>
+<ol>
+  <li>Acceder la carpeta “ReactFront” y ejecutar “npm start”</li>
+  <li>Acceder al localhost http://localhost: <YOU_PORT>/</li>
+</ol>
+<table>
+  <thead>
+    <th>Boton</th>
+    <th>Funcionalidad</th>
+    <th>Campo</th>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Create</td>
+      <td>Permite añadir un nuevo producto</td>
+      <td>Description<br>Precio<br>Stock<br></td>
+    </tr>
+    <tr>
+      <td>Edit</td>
+      <td>Permite editar un producto	Description</td>
+      <td>Description<br>Precio<br>Stock<br></td>
+    </tr>
+    <tr>
+      <td>Delete</td>
+      <td>Permite eliminar un producto</td>
+      <td>x</td>
+    </tr>
+  </tbody>
+</table>
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
